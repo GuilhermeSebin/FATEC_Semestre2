@@ -1,7 +1,7 @@
 ### Guilherme Sebin - Engenharia de Software FATEC São Carlos 2025
 ### Prof. Arnaldo Napolitano Sanchez
 
-# App para Atendimento em Restaurantes 🥪
+# App para Atendimento em Restaurantes 🥪🥝
 
 Após ter trabalhado anos em bares e restaurantes, eu quis fazer algo simples que facilitasse a vida dos atendentes de restaurantes.
 Já existem diversos apps e programas para gerenciamento e coordenação de pedidos para este tipo de atividade, porém sempre senti dificuldade em utilizar estas ferramentas.
