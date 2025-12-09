@@ -42,7 +42,7 @@ Link para página de desenvolvimento do projeto - https://github.com/users/Guilh
 
 -------------------------------------------------------------------------
 
-## Histórias de Usuário
+## Histórias de Usuário (Gerkhin)
 
 ### **Funcionalidade: Realização de Pedidos e Validação de Estoque**
 **Como** atendente
