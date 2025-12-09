@@ -13,7 +13,7 @@ Os programas citados acima permitem diversas customizações e utilizam esta "fe
 A gestão e aquele que gere o estabelecimento deve sim ter acesso à diversas funções que possam atender às diversas necessidades impostas no exercício da função, mas o atendente, ao meu ver, não deveria se preocupar com estes quesitos. Seu trabalho é atender de maneira rápida e eficiente, permitindo focar no cliente e dar maior atenção.
 Em diversas ocasiões, o atendimento se torna mecânico e impessoal, como o auto-atendimento realizado pelo setor de Fast-Food. Alguns estabelecimentos requerem que a experiência seja esta, mas também discordo da visão. O setor de restaurantes é descrito como setor da *Hospitalidade*, ou seja estar aberto para receber, acolher e servir. A diferença entre ter seu pedido anotado e ser atendido é completamente diferente. Ter alguém que possa escutar e entender o que desejamos, faz clara diferença na experiência para o cliente. Não é à toa que existem as 'Estrelas Michelin', ou guias que realizam avaliações sobre estabelecimentos, pelos quais nos guiamos para escolher onde comer e ter boas experiências. 
 
-Após esta declaração, faço das minhas visões e experiências, a ideia de adequação de atendimento que possa facilitar o serviço do atendente e melhorar a visita ao estabelecimento.
+Após esta declaração, faço das minhas visões e experiências, a ideia de adequação ao atendimento que possa facilitar o serviço do atendente e melhorar a visita do cliente ao estabelecimento.
 
 
 -----------------------------------------------------------------
@@ -49,8 +49,8 @@ Link para página de desenvolvimento do projeto - https://github.com/users/Guilh
 **Quero** lançar pedidos no sistema e ser avisado se houver falta de insumos
 **Para** garantir que a cozinha receba apenas pedidos que consegue preparar
 
-#### **Cenário 1: Envio de pedido com sucesso (Caminho Feliz)**
-> *Refere-se aos passos 1 a 13 (bloco "Estoque OK")*
+#### **Cenário 1: Envio de pedido com sucesso **
+> *(Em caso de Estoque OK)*
 * **Dado** que o Atendente selecionou a mesa e os itens do pedido na Tela
 * **Quando** ele confirmar o envio do pedido
 * **Então** o Backend deve validar que há estoque disponível
@@ -58,7 +58,7 @@ Link para página de desenvolvimento do projeto - https://github.com/users/Guilh
 * **E** a Tela do atendente deve exibir a mensagem "Pedido Enviado com Sucesso"
 
 #### **Cenário 2: Tentativa de pedido com insumo indisponível (Fluxo de Exceção)**
-> *Refere-se ao bloco "alt Insumo Indisponível"*
+> (Em caso de Insumo Indisponível)*
 * **Dado** que o Atendente enviou um pedido de um prato específico
 * **Quando** o Backend verificar que não há insumos suficientes no estoque
 * **Então** o sistema deve retornar um erro "Sem Insumo" para a Tela
@@ -74,7 +74,6 @@ Link para página de desenvolvimento do projeto - https://github.com/users/Guilh
 **Para** que o cliente receba a comida fresca e quente o mais rápido possível
 
 #### **Cenário: Notificação de prato pronto**
-> *Refere-se aos passos 14 a 19*
 * **Dado** que a Cozinha finalizou o preparo de um prato
 * **Quando** a equipe marcar o item como "PRONTO" no display da Cozinha
 * **Então** o Backend deve enviar uma Push Notification para o dispositivo do Atendente
@@ -89,7 +88,6 @@ Link para página de desenvolvimento do projeto - https://github.com/users/Guilh
 **Para** evitar erros manuais e ter dados precisos em tempo real
 
 #### **Cenário: Fechamento de conta e atualizações sistêmicas**
-> *Refere-se à Fase 3 e ao bloco "Critical"*
 * **Dado** que o Atendente solicitou o fechamento da conta na Tela
 * **E** o sistema retornou o resumo de valores corretamente
 * **Quando** o Atendente confirmar o recebimento do pagamento (Cartão ou Dinheiro)
@@ -106,7 +104,6 @@ Link para página de desenvolvimento do projeto - https://github.com/users/Guilh
 **Para** tomar decisões baseadas nas vendas e no nível de estoque atual
 
 #### **Cenário: Visualização de métricas**
-> *Refere-se aos passos 31 a 34*
 * **Dado** que o Dono acessou a área de Dashboard na Tela
 * **Quando** a tela carregar
 * **Então** o sistema deve buscar os dados mais recentes no Backend
