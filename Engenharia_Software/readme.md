@@ -135,4 +135,9 @@ https://github.com/GuilhermeSebin/FATEC_Semestre2/blob/main/Engenharia_Software/
 
 ![unnamed](https://github.com/user-attachments/assets/19239d30-d981-4b60-accc-90cb226de259)
 
+---
+### Visão de gerenciamento em PC (acesso geral à todas funções)
+
+![unnamed](https://github.com/user-attachments/assets/7c506d6b-b2b9-4bac-9e9d-2b8058515bc7)
+
 
