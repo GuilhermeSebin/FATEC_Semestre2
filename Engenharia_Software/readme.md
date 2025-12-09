@@ -25,6 +25,13 @@ Após esta declaração, faço das minhas visões e experiências, a ideia de ad
 - Permitir uso do app por celular ou computador, possibilitando usos diversos.
 
 
+
 Link para página de desenvolvimento do projeto - https://github.com/users/GuilhermeSebin/projects/4
+
+## Diagrama de Casos de Uso
+
+
+
+<img width="3172" height="2644" alt="image" src="https://github.com/user-attachments/assets/b35ff06e-2deb-4b38-b182-063cc820ee48" />
 
 
